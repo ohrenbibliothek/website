@@ -1,0 +1,76 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Ohrenbibliothek
+    link(rel='stylesheet', href='css/main.css')
+    link(rel='stylesheet', href='css/stylesheet.css')
+  body
+    header
+      .wrapper
+        h1 Ohrenbibliothek
+        h2 Jetzt gibt's was auf die Ohren!
+        img.logo(src='img/logo.svg')
+        p.subtitle
+          | Das Vodcast Projekt
+          br
+          | in deiner Stadt!
+        .down
+          img(src='img/down.svg')
+    .content
+      .box-1
+        .wrap
+          .yt
+            iframe#youtube(src='https://www.youtube.com/embed/DIxr4X5Ygoo?rel=0&showinfo=0', frameborder='0', allowfullscreen='')
+          span.description
+            | Du willst deine Stadt Mönchengladbach
+            br
+            | besser kennen lernen und hinter die
+            br
+            | Kulissen blicken...
+      .box-2
+        .wrap
+          span.description.above
+            | Journalistische Interviews führen, Audio-
+            br
+            | Podcasts erstellen, Videobeiträge
+            br
+            | drehen, schneiden und
+            br
+            | vertonen?
+          .sound
+            iframe#soundcloud(scrolling='no', frameborder='no', src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/20073329&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false')
+          span.description.below
+            | Journalistische Interviews führen, Audio-
+            br
+            | Podcasts erstellen, Videobeiträge
+            br
+            | drehen, schneiden und
+            br
+            | vertonen?
+      .box-3
+        .wrap
+          .img-wrap
+            .img
+              img(src='img/axel.jpg')
+          span.description
+            | Mit Unterstützung des
+            br
+            | Journalisten und Radiomachers
+            br
+            | Axel Tillmanns werden die Jugendlichen
+            br
+            | zu Regisseuren, Produzenten und Moderatoren
+      .box-4
+        .wrap.last1
+          span.description.end
+            | Um dich anzumelden schreib uns einfach
+            br
+            | eine Email oder schrick eine Privatnachricht
+            br
+            | an unsere Facebook-Seite
+        .wrap.last2
+          .button-wrap
+            a.button.mail(href='mailto:ohrenbibliothek@moenchengladbach.de?Subject=Anmeldung', target='_top') Mail
+          .button-wrap
+            a.button.facebook(href='https://www.facebook.com/Ohrenbibliothek/', target='_blank') Facebook
