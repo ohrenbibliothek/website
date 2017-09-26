@@ -16,9 +16,10 @@ html
           br
           | in deiner Stadt!
         .down
-          img(src='img/down.svg')
+          a(href="#box-1")
+            img(src='img/down.svg')
     .content
-      .box-1
+      #box-1
         .wrap
           .yt
             iframe#youtube(src='https://www.youtube.com/embed/DIxr4X5Ygoo?rel=0&showinfo=0', frameborder='0', allowfullscreen='')
@@ -77,4 +78,5 @@ html
       .box-5
         span.imprint
           a.l(href="impressum/index.html") Impressum ©2017 Ohrenbibliothek
-
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src='app.js')  
